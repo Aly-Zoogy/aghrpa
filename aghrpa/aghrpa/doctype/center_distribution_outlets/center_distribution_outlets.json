@@ -1,0 +1,36 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:outlet_name",
+ "creation": "2025-01-16 10:12:14.281318",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "outlet_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "outlet_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Outlet Name",
+   "options": "Distribution Outlets",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-19 14:21:41.471015",
+ "modified_by": "Administrator",
+ "module": "Aghrpa",
+ "name": "Center Distribution Outlets",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-02-16 14:16:35.049534",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_a5bh",
+  "national_id",
+  "address",
+  "phon"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_a5bh",
+   "fieldtype": "Section Break",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "national_id",
+   "fieldtype": "Data",
+   "label": "National Id"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "phon",
+   "fieldtype": "Data",
+   "label": "Phon"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-16 14:16:35.049534",
+ "modified_by": "Administrator",
+ "module": "Aghrpa",
+ "name": "Subscribers",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

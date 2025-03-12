@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:center_name",
+ "creation": "2025-01-21 09:14:30.545348",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "center_name",
+  "distribution_outlets",
+  "column_break_xb91",
+  "company_name",
+  "treasuries",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "center_name",
+   "fieldtype": "Data",
+   "label": "Center Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "distribution_outlets",
+   "fieldtype": "Table",
+   "label": "Distribution Outlets",
+   "options": "Center Distribution Outlets"
+  },
+  {
+   "fieldname": "column_break_xb91",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Link",
+   "label": "Company Name",
+   "options": "Water Company"
+  },
+  {
+   "fieldname": "treasuries",
+   "fieldtype": "Table",
+   "label": "Treasuries",
+   "options": "Center Treasuries"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Center Test",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-29 12:39:49.759118",
+ "modified_by": "Administrator",
+ "module": "Aghrpa",
+ "name": "Center Test",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

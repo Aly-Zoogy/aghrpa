@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{#######}",
+ "creation": "2025-02-13 09:29:09.107702",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "center",
+  "tresury_window",
+  "transaction_date",
+  "transaction_id",
+  "customer_kind",
+  "customer_id",
+  "customer_name",
+  "adress",
+  "phon",
+  "exchange_state",
+  "exchange_date",
+  "exchange_port",
+  "car_number",
+  "driver_name",
+  "reserved_load",
+  "outgoing_load"
+ ],
+ "fields": [
+  {
+   "fieldname": "center",
+   "fieldtype": "Link",
+   "label": "Center",
+   "options": "Centers"
+  },
+  {
+   "fieldname": "tresury_window",
+   "fieldtype": "Link",
+   "label": "Tresury Window",
+   "options": "Treasury windows"
+  },
+  {
+   "fieldname": "transaction_date",
+   "fieldtype": "Datetime",
+   "label": "Transaction date"
+  },
+  {
+   "fieldname": "customer_kind",
+   "fieldtype": "Data",
+   "label": "Customer Kind"
+  },
+  {
+   "fieldname": "customer_id",
+   "fieldtype": "Data",
+   "label": "Customer Id"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "adress",
+   "fieldtype": "Data",
+   "label": "Adress"
+  },
+  {
+   "fieldname": "phon",
+   "fieldtype": "Data",
+   "label": "Phon"
+  },
+  {
+   "fieldname": "exchange_state",
+   "fieldtype": "Int",
+   "label": "Exchange State"
+  },
+  {
+   "fieldname": "exchange_date",
+   "fieldtype": "Datetime",
+   "label": "Exchange Date"
+  },
+  {
+   "fieldname": "exchange_port",
+   "fieldtype": "Data",
+   "label": "Exchange Port"
+  },
+  {
+   "fieldname": "car_number",
+   "fieldtype": "Data",
+   "label": "Car Number"
+  },
+  {
+   "fieldname": "driver_name",
+   "fieldtype": "Data",
+   "label": "Driver Name"
+  },
+  {
+   "fieldname": "reserved_load",
+   "fieldtype": "Int",
+   "label": "Reserved Load"
+  },
+  {
+   "fieldname": "outgoing_load",
+   "fieldtype": "Int",
+   "label": "Outgoing Load"
+  },
+  {
+   "fieldname": "transaction_id",
+   "fieldtype": "Link",
+   "label": "Transaction Id",
+   "options": "Treasury windows Transaction"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-16 10:13:34.667446",
+ "modified_by": "Administrator",
+ "module": "Aghrpa",
+ "name": "Distribution Outlets Transactions",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

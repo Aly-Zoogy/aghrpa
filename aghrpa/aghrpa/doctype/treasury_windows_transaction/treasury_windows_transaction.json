@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{#######}",
+ "creation": "2025-01-16 14:29:12.250739",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_1cwt",
+  "cart_id",
+  "column_break_xoho",
+  "subscriber_id",
+  "column_break_obvw",
+  "national_id",
+  "section_break_wfgj",
+  "cart_name",
+  "address",
+  "quantity",
+  "distribution_outlets",
+  "transaction_date",
+  "distribution_outlets_transactions"
+ ],
+ "fields": [
+  {
+   "fieldname": "cart_id",
+   "fieldtype": "Link",
+   "label": "Cart D",
+   "options": "Carts"
+  },
+  {
+   "fieldname": "cart_name",
+   "fieldtype": "Read Only",
+   "label": "Cart Name"
+  },
+  {
+   "depends_on": "cart_id",
+   "fetch_from": "cart_id.address",
+   "fieldname": "address",
+   "fieldtype": "Read Only",
+   "label": "Address"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Select",
+   "label": "Quantity",
+   "options": "10\n15\n20\n25\n30"
+  },
+  {
+   "fieldname": "distribution_outlets",
+   "fieldtype": "Link",
+   "label": "Distribution Outlets",
+   "options": "Distribution Outlets"
+  },
+  {
+   "fieldname": "transaction_date",
+   "fieldtype": "Datetime",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Transaction Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "distribution_outlets_transactions",
+   "fieldtype": "Table",
+   "label": "Distribution Outlets Transactions",
+   "options": "Distribution Outlets Transactions"
+  },
+  {
+   "fieldname": "section_break_1cwt",
+   "fieldtype": "Section Break",
+   "label": "Query By"
+  },
+  {
+   "fieldname": "subscriber_id",
+   "fieldtype": "Link",
+   "label": "Subscriber ID",
+   "options": "Subscribers"
+  },
+  {
+   "fieldname": "national_id",
+   "fieldtype": "Link",
+   "label": "National ID",
+   "options": "National numbers"
+  },
+  {
+   "fieldname": "section_break_wfgj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_obvw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xoho",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-19 13:14:20.486029",
+ "modified_by": "Administrator",
+ "module": "Aghrpa",
+ "name": "Treasury windows Transaction",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
